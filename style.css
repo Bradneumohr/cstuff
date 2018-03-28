@@ -1,0 +1,303 @@
+/* Hides page meta data and breadcrumbs */
+
+.page-metadata {
+    display: none !important;
+}
+
+#breadcrumbs {
+    display: none;
+}
+
+
+/*shrinks all panel macros to text*/
+
+.confluence-information-macro {
+    display: inline-block;
+}
+
+/*keeps images from being too wide for window*/
+
+.wiki-content .confluence-embedded-file-wrapper .confluence-embedded-image {
+    max-width: 100%;
+}
+
+/*hides quick create button*/
+
+#quick-create-page-button {
+    display: none !important;
+}
+
+/*rounds corners of create button*/
+
+#create-page-button {
+    border-top-left-radius: 3.01px;
+    border-bottom-left-radius: 3.01px;
+}
+
+/*if using the sidebar search embed to move search to top of page*/
+
+.acs-side-bar-content {
+    margin-top: 55px;
+}
+
+/*recap test CSS*/
+
+.lr-lead-name {
+    font-weight: bold;
+}
+
+.lr-recap-name td {
+    border: none;
+    font-weight: bold;
+}
+
+.lr-general-table {
+    border: none;
+}
+
+.lr-general-table th {
+    background-color: white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.lr-general-table td {
+    border-left: none;
+    border-right: none;
+}
+
+.lr-general-table tr {
+    background-color: #f9edf5;
+}
+
+.lr-table-format1 td:nth-child(1) {
+    width: 150px;
+}
+
+/*SET CSS*/
+
+.set-general-table {
+    border: none;
+}
+
+.set-general-table th {
+    background-color: #dfe3ee;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.set-general-table td {
+    border-left: none;
+    border-right: none;
+}
+
+.set-general-table tr {
+    background-color: #f7f7f7;
+}
+
+.set-observe td:nth-child(2) {
+    border-left: 1px solid grey;
+    width: 150px
+}
+
+.set-title td {
+    border: none;
+}
+
+.set-top th {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* WORK ORDER CSS */
+
+.wo-general-table td:nth-child(1) {
+    width: 75px;
+}
+
+.wo-general-table td:nth-child(2) {
+    width: 150px;
+}
+
+.wo-general-table td:nth-child(3) {}
+
+.wo-general-table td:nth-child(4) {
+    width: 100px;
+}
+
+.wo-general-table td:nth-child(5) {
+    width: 100px;
+}
+
+.wo-general-table td:nth-child(6) {
+    width: 75px;
+}
+
+/* INFORMATION PANEL CSS */
+
+.general-panel th,
+.general-panel-recap th {
+    width: 100%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid grey;
+    background-color: grey;
+}
+
+.general-panel td {
+    width: 100%;
+    border-left: none;
+    border-top: 1px dotted grey;
+    border-right: none;
+    border-bottom: 1px dotted grey;
+    background-color: #f9f9f9;
+    transition: .5s;
+}
+
+.general-panel-recap td {
+    width: 100%;
+    border-left: none;
+    border-top: 1px dotted grey;
+    border-right: none;
+    border-bottom: 1px dotted grey;
+    background-color: #f9f9f9;
+}
+
+.card {
+    width: 250px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.scroll {
+    overflow-x: hidden;
+}
+
+.general-panel,
+.general-panel-recap a:link {
+    color: #000;
+    text-decoration: none;
+    display: block;
+
+}
+
+.general-panel,
+.general-panel-recap a:visited {
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.general-panel,
+.general-panel-recap a:hover {
+    color: #000;
+    text-decoration: underline;
+    display: block;
+}
+
+.general-panel,
+.general-panel-recap a:active {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.recap-links,
+.general-panel-recap a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.general-panel td:hover {
+    background-color: #e3e3e3;
+}
+
+
+/* ----------------------------------   MENU  -----------------------*/
+
+.main-nav2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 10px 0;
+    overflow: auto;
+}
+
+.main-nav2 li {
+    display: inline;
+    float: left;
+    border-right: 1px solid #bbb;
+    background-color: #205081;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.main-nav2 li a {
+    padding: 5px 5px;
+}
+
+.main-nav2 li a:link,
+.main-nav2 li a:visited {
+    text-decoration: none; //    text-transform: uppercase;
+    font-size: 90%;
+    display: block;
+}
+
+.main-nav2 li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+.main-nav2 li:hover,
+.dropdown:hover .dropbtn {
+    background-color: #194066;
+}
+
+.main-nav2 li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a:link,
+.dropdown-content a:active,
+.dropdown-content a:visited {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.general-panel td a {
+    display: block;
+}
+
+/*-------------RESPONSIVE CSS-----------------*/
+
+@media only screen and (max-width: 600px) {
+    .main-nav2 li a,
+    .dropbtn {
+        padding: 2px 4px;
+    }
+}
